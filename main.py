@@ -36,6 +36,8 @@ def Sales_Decade(df):
                                 bins=[1979,1989,1999,2009,2019], 
                                  labels=range(1980,2020,10))
   df_Decada=df_selected.groupby('decada').agg(({"Global_Sales":["mean","max","min"]}))
+
+
   
   return df_Decada
 
@@ -63,6 +65,8 @@ def save_plots(name, df= None, ser= None, x= None, y= None, tipo='bar'):
 parser = ArgumentParser(description="Este programa es para saludar a los TA")
 
 parser.add_argument("--sales",help="sales or popularity", default="sales")
-parser.add_argument("--eu",help="sales from: eu, na or Global", default="Global")
-parser.add_argument("--na",help="sales from: eu, na or Global", default=1, type=int)
-parser.add_argument("--Global",help="sales from: eu, na or Global", action='store_true')
+parser.add_argument("--jp",help="sales or popularity", default="sales")
+parser.add_argument("--eu",help="sales from: eu, na ,jp or Global", default="Global")
+parser.add_argument("--na",help="sales from: eu, na,jp or Global", default='Global')
+parser.add_argument("--Global",help="sales from: eu, na,jp or Global", action='Global')
+
