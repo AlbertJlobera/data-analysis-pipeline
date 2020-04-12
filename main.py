@@ -4,8 +4,14 @@ import sys
 import os
 import matplotlib.pyplot as plt
 import GrapApi
+from argparse import ArgumentParser
+import subprocess
 
-outPath= 'output/'
+
+
+file= '../../csv/vgsales_.csv'
+df = pd.read_csv(file)
+
 
 def acquire(filePath):
   df = pd.read_csv(filePath)
@@ -54,25 +60,9 @@ def save_plots(name, df= None, ser= None, x= None, y= None, tipo='bar'):
   plt.savefig(save_path)
 
 
-#Ejecución del programa principal
-def ejecutar(filePath):
-  try:
-    df = acquire(filePath)
-    print('Getting Nintendos data...')
-  except Exception:
-    print('Check path to get csv file')
-    sys.exit(-1)
-    
-  df_selected= Global_Sales(df)
-  df_selected= Sales_Decade(df_selected)
+parser = ArgumentParser(description="Este programa es para saludar a los TA")
 
-  # Estudio de categorías de puntuación.
-  categories_serie= data(df_selected, 'category')
-  visualize('data from ', ser=data)
-  save_plots('data from', ser=data)
-
-
-  #Top ten populares
-  df_api= igdbApi()
-  visualize('Top 10 popular today', df_api)
-  save_plots('top10 popular today', df=df_api.sort_values('popularity'), x= 'name', y='popularity', tipo='barh')
+parser.add_argument("--sales",help="sales or popularity", default="sales")
+parser.add_argument("--eu",help="sales from: eu, na or Global", default="Global")
+parser.add_argument("--na",help="sales from: eu, na or Global", default=1, type=int)
+parser.add_argument("--Global",help="sales from: eu, na or Global", action='store_true')
