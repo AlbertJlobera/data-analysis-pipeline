@@ -2,3 +2,4 @@
 .checkpoints
 Clean Data.ipynb
 .ipynb_checkpoints/
+__pycache__
