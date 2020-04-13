@@ -68,4 +68,4 @@ pdf.image('graphic nintendo.png', x=60, y= 130, w=100,h=100)
 
 pdf.image('nintendo_logo.png', x=85, y= 240, w=60,h=20)
 
-pdf.output('sample_pdf','F')
+pdf.output('Nintendo_Sales_pdf','F')
