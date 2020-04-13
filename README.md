@@ -25,12 +25,11 @@
 <p>&nbsp;</p>
 <p><strong>North America</strong>, their loyal client, gets number one on his list after Europe and Japan.</p>
 <p>We have configured a filter system with which you can modify the dataframe to obtain the desired information and be able to obtain your own conclusions about this giant and well-known Japanese brand.</p>
-<p>&nbsp;</p>
-<p>[graphic photo]</p>
+
 <p>&nbsp;</p>
 <p>For the information to be clearer and more detailed, there is a pdf file with the brief summary of data, as well as an automatic email with the attached pdf for those who want it.</p>
 <p>&nbsp;</p>
-<p>[Insert PDF photo]</p>
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <!-- /wp:paragraph -->
