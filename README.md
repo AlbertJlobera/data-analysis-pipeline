@@ -8,8 +8,8 @@
 
 <!-- wp:heading {"level":3} -->
 <h3>Nintendo monopolizes the top sales in recent years thanks to their new consoles, wii and nintendo, positioning their self well above to their competitors.</h3>
-<p>&nbsp;</p>
-<p>[nintendo old photo]</p>
+
+<p><img class="alignnone " src="https://cdn.pixabay.com/photo/2017/04/04/18/10/video-game-console-2202592_1280.jpg" width="570" height="296" /></p>
 <!-- /wp:heading -->
 
 <!-- wp:image {"width":524,"height":347,"sizeSlug":"large"} /-->
@@ -20,7 +20,7 @@
 <p>&nbsp;</p>
 <p>Currently it is the <strong>top seller</strong> with more than 15 best-selling games in the world and the most popular like "wii sports" and "Mario bros".</p>
 <p>&nbsp;</p>
-<p>[mariobros photo]</p>
+<p><img class="alignnone " src="http://los100mejores.com/wp-content/uploads/2018/09/regalos-mario-bros.jpg" width="261" height="323" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>North America</strong>, their loyal client, gets number one on his list after Europe and Japan.</p>
